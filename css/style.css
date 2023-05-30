@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #e79c7f, #ec30ec, #01eeff, #0ae741) no-repeat;
+    background-size: 300% 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: gradient 10s linear infinite alternate;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
